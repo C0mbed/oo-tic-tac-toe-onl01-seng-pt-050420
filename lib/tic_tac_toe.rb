@@ -142,8 +142,7 @@ class TicTacToe
       if draw_the_game == true
         over = true
       elsif won_the_round == true
-        over = true
-      else
+        over = true        
       end
     end
 

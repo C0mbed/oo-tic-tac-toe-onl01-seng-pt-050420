@@ -138,7 +138,9 @@ class TicTacToe
       turn
     end
     if won?
+      puts 
     elsif draw?
+      puts "Cat's Game!"
     end
   end
 

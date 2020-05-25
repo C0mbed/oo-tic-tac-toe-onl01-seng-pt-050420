@@ -139,7 +139,7 @@ class TicTacToe
     end
     if won?
       winner_index = won?
-      winner = winner_index[0]
+      binding.pry
       puts "Congratulations #{winner}!"
     elsif draw?
       puts "Cat's Game!"

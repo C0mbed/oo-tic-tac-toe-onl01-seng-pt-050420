@@ -134,18 +134,11 @@ class TicTacToe
    end
 
   def play
-    over = false
-    while over != true
+    until over?
       turn
-      draw_the_game = draw?
-      won_the_round = won?
-      if draw_the_game == true
-        over = true
-      elsif won_the_round == true
-        over = true        
-      end
     end
-
-  end
-
+    if won?
+    elsif draw?
+    end
+      
 end

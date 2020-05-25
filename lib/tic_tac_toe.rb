@@ -137,11 +137,14 @@ class TicTacToe
     over = nil
     while over != true
       turn
-      over = over?
+      draw_the_game = draw?
+      won_the_round = won?
+      if draw_the_game == true
+      elsif won_the_round == true
+      else
+      end
     end
-    draw_game = draw?
-    won_the_round = won?
-    binding.pry
+
   end
 
 end
